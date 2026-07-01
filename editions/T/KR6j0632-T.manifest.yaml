@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR6j0632/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0632/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說消除一切災障寶髻陀羅尼經
+  identifiers:
+    krp: KR6j0632
+    cbeta: T21n1400
+    cbeta_old_id: T21n1400
+    authorityid: CA0003573
+    json_key: T1400
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1400.xml
+    old_id: T21n1400
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0632_000-T.yaml, hash: 'sha256:c942b1caf77e26e67da94bfde95171b20dbf638dbc70cf77c1e74543386e3304'}
+  - {seq: 1, filename: KR6j0632_001-T.yaml, hash: 'sha256:fb212e16cdc2336e43419977c27cde92b2cccb681f4b997e365be5b782a3b8b7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0632_000-T.markers.yaml, hash: 'sha256:219edfb0f99cbfdf18109ab23fe4aa0ce23d1a912c030704158d4df6ce4a6510'}
+  - {seq: 1, role: markers, filename: assets/KR6j0632_001-T.markers.yaml, hash: 'sha256:351b055f9f3d772530ff07b76a084e9ea4aa832dc4e3d7ef8f497ca3243eaa3b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0632_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1881
+  label: '佛說消除一切災障寶髻陀羅
+
+    尼經'
+  type: juan
+  level: 1
+hash: sha256:6c7ca7a08578048a709b1247a8ea20bd3a59a8a913951b8e972696596d1b25c5

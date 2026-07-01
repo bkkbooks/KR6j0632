@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR6j0632/v1
+canonical_location: https://kanripo.org/bkk/KR6j0632/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說消除一切災障寶髻陀羅尼經
+  identifiers:
+    alt_id:
+    - T21n1400
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1400.xml
+    old_id: T21n1400
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0632_000.yaml, hash: 'sha256:c942b1caf77e26e67da94bfde95171b20dbf638dbc70cf77c1e74543386e3304'}
+  - {seq: 1, filename: KR6j0632_001.yaml, hash: 'sha256:a51dab9ec9e23de40ebf9dfa17f6f7dcae8c38ba5969bd601e8c169fa6edcdc7'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0632_001.markers.yaml, hash: 'sha256:9408bb9cf1e5247a46698f7ac99895531124535cb60c2c5079d845c582aec592'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0632_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1881
+  label: '佛說消除一切災障寶髻陀羅
+
+    尼經'
+  type: juan
+  level: 1
+hash: sha256:78157e37a24bf9eb31a4e6038d93c1f95604499f982c33302b6a3eea57ee0030
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
