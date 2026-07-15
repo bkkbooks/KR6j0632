@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0632/v1
 canonical_location: https://kanripo.org/bkk/KR6j0632/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說消除一切災障寶髻陀羅尼經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0632_000.yaml, hash: 'sha256:c942b1caf77e26e67da94bfde95171b20dbf638dbc70cf77c1e74543386e3304'}
-  - {seq: 1, filename: KR6j0632_001.yaml, hash: 'sha256:fb212e16cdc2336e43419977c27cde92b2cccb681f4b997e365be5b782a3b8b7'}
+  - {seq: 1, filename: KR6j0632_001.yaml, hash: 'sha256:c6bd77f455dc421c453962f7c12aeb539e1f94bc6182d19bfe82e0e76b7eae7c'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0632_000.markers.yaml, hash: 'sha256:265b8250fade615fbcd0a1df48f901fd927a7b8f597a509586d4ef8651f048ea'}
-  - {seq: 1, role: markers, filename: assets/KR6j0632_001.markers.yaml, hash: 'sha256:a93e7d3146c60644c89874d3ea1c7984ebea3eef1b6d1fdec6717ae98a7edf50'}
+  - {seq: 1, role: markers, filename: assets/KR6j0632_001.markers.yaml, hash: 'sha256:2098aeb8ae7aa7909f6fbf240a12d2f23a0df27e3d44dc741b4cb1a927215699'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,4 +48,7 @@ table_of_contents:
     尼經'
   type: juan
   level: 1
-hash: sha256:eba1ef7d74939c3ef6bc82987d0bd0224f240923672b7dec2a8b453de13d25d1
+hash: sha256:062294cc6e2e2a51cee793734a64ee352aa5453eff19356f950ae68f5eccaac3
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
